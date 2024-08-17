@@ -1,82 +1,53 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #1e3a55;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.container {
-    text-align: center;
-    width: 300px;
-    padding: 20px;
-    background-color: #12263a;
-    border-radius: 10px;
-}
-
-h1 {
-    font-size: 24px;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-}
-
-.dragon-image img {
-    width: 100px;
-    margin-bottom: 20px;
-}
-
-.login-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #1c527b;
-    border: 1px solid #3e6e8b;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-
-.login-button:hover {
-    background-color: #3e6e8b;
-}
-
-.login-button i {
-    margin-right: 10px;
-}
-
-.terms {
-    font-size: 12px;
-    color: #8ba7c7;
-    margin-top: 20px;
-}
-
-.terms a {
-    color: #66b2ff;
-    text-decoration: none;
-}
-
-.links {
-    display: flex;
-    justify-content: space-between;
-    font-size: 12px;
-    color: #66b2ff;
-    margin-top: 10px;
-}
-
-.links a {
-    color: #66b2ff;
-    text-decoration: none;
-}
-
-.problems {
-    margin-top: 10px;
-    font-size: 12px;
-    color: #8ba7c7;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ejemplo</title>
+    <link rel="stylesheet" href="pantallaInicio.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p>ISMAEL REYES</p>
+            <div class="level">
+                <p>NIVEL: 9</p>
+            </div>
+            <div class="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="flag-container">
+                <img src="pennsylvania-flag.png" alt="Bandera de Pensilvania" class="flag">
+            </div>
+            <h2>Pensilvania A1</h2>
+            <div class="buttons">
+                <div class="button">
+                    <p>Lenguaje</p>
+                </div>
+                <div class="switch-button">
+                    <img src="switch-icon.png" alt="Cambiar">
+                    <p>Cambiar</p>
+                </div>
+                <div class="button">
+                    <p>Inglés</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-icon">
+                <p>LECCIONES</p>
+            </div>
+            <div class="footer-icon">
+                <p>ENFRENTAMIENTO</p>
+            </div>
+            <div class="footer-icon">
+                <p>TRADUCTOR</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
